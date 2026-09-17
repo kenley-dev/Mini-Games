@@ -20,9 +20,30 @@ These projects were my very first experience with coding and were created using 
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Play
 
 ### Prerequisites
 Make sure you have Python installed along with the CMU Graphics library:
 ```bash
 pip install cmu-graphics
+```
+### Step 1: Get the Code
+
+#### Option A: Direct Download (ZIP)
+1. Click the green **`<Code>`** button at the top of this repository page and select **Download ZIP**.
+2. Extract the raw downloaded `.zip` file on your computer.
+3. Open Terminal or Command Prompt and navigate to the extracted folder:
+   ```bash
+   cd path/to/extracted/folder
+
+#### Option B: Clone with Git
+```bash
+  git clone https://github.com/kenley-dev/Mini-Games.git
+  cd Mini-Games
+```
+### Step 2: Run a Game
+
+Run the game by wirting the following, while replacing "desired_game" with the game of your choice:
+
+```bash
+python desired_game.py
